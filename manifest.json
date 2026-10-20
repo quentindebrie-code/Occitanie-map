@@ -1,0 +1,36 @@
+{
+  "project": "occitanie-zones-streamlit",
+  "departments": [
+    {
+      "code": "09",
+      "name": "Ariège"
+    },
+    {
+      "code": "11",
+      "name": "Aude"
+    },
+    {
+      "code": "31",
+      "name": "Haute-Garonne"
+    },
+    {
+      "code": "32",
+      "name": "Gers"
+    },
+    {
+      "code": "65",
+      "name": "Hautes-Pyrénées"
+    },
+    {
+      "code": "81",
+      "name": "Tarn"
+    },
+    {
+      "code": "82",
+      "name": "Tarn-et-Garonne"
+    }
+  ],
+  "postal_commune_rows": 2815,
+  "distinct_postal_codes": 319,
+  "distinct_communes": 2806
+}
