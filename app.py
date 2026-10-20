@@ -91,7 +91,7 @@ except Exception as exc:
 
 center_lat = float(filtered["latitude"].mean()) if not filtered.empty else 43.6
 center_lon = float(filtered["longitude"].mean()) if not filtered.empty else 1.45
-m = folium.Map(location=[center_lat, center_lon], zoom_start=7, tiles="CartoDB positron", control_scale=True)
+m = folium.Map(location=[center_lat, center_lon], zoom_start=7, tiles="OpenStreetMap", control_scale=True)
 Fullscreen(position="topright").add_to(m)
 MeasureControl(position="topright", primary_length_unit="kilometers").add_to(m)
 
